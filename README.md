@@ -3,3 +3,15 @@ The first instance of a function which could automatically fire a proximity prom
 
 ## Preview 
 ![alt text](https://i.imgur.com/6U7ZHfX.gif)
+
+## Usage 
+
+```lua
+--[[ 
+This will fire the proximity prompt indexed in the first argument
+for the amount of times specified in the second argument and the third
+argument is whether or not you would like to skip the proximity prompt's hold duration. 
+]]
+
+fireproximityprompt(workspace.Instance.ProximityPrompt, 1, true)
+```
